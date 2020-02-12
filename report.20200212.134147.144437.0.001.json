@@ -1,0 +1,429 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200212.134147.144437.0.001.json",
+    "dumpEventTime": "2020-02-12T13:41:47Z",
+    "dumpEventTimeStamp": "1581500507427",
+    "processId": 144437,
+    "cwd": "/home/sabashavidze/Desktop/freecodecamp",
+    "commandLine": [
+      "/usr/bin/node",
+      "10001stprime.js"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "glibcVersionRuntime": "2.30",
+    "glibcVersionCompiler": "2.30",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.3.7-301.fc31.x86_64",
+    "osVersion": "#1 SMP Mon Oct 21 19:18:58 UTC 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3737,
+        "user": 52369100,
+        "nice": 133600,
+        "sys": 11871400,
+        "idle": 1755902500,
+        "irq": 2551400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3675,
+        "user": 52820200,
+        "nice": 191700,
+        "sys": 11901400,
+        "idle": 1757796200,
+        "irq": 2053900
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3512,
+        "user": 51873200,
+        "nice": 103300,
+        "sys": 12942900,
+        "idle": 1755808100,
+        "irq": 3769700
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3536,
+        "user": 53214700,
+        "nice": 180400,
+        "sys": 12522000,
+        "idle": 1754150300,
+        "irq": 2903100
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3660,
+        "user": 53106600,
+        "nice": 227000,
+        "sys": 12338400,
+        "idle": 1757000900,
+        "irq": 2114400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3777,
+        "user": 52398500,
+        "nice": 134100,
+        "sys": 12152400,
+        "idle": 1757392400,
+        "irq": 2134000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3784,
+        "user": 52835600,
+        "nice": 151600,
+        "sys": 11948700,
+        "idle": 1758345400,
+        "irq": 2085400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+        "speed": 3895,
+        "user": 51643800,
+        "nice": 146200,
+        "sys": 11714700,
+        "idle": 1759243200,
+        "irq": 2215800
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "enp3s0",
+        "internal": false,
+        "mac": "9c:5c:8e:92:bb:4c",
+        "address": "172.16.10.231",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "enp3s0",
+        "internal": false,
+        "mac": "9c:5c:8e:92:bb:4c",
+        "address": "fe80::6473:818a:b428:ef21",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      }
+    ],
+    "host": "localhost.localdomain"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007f6b0a6286a0",
+      "symbol": " [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a629e6a",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::String>) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a4e6133",
+      "symbol": "node::OnFatalError(char const*, char const*) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a836daa",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a837032",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a9be869",
+      "symbol": " [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a99e3ae",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray(int, v8::internal::AllocationType) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0a99e7c9",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller(v8::internal::RootIndex, int, v8::internal::Object, v8::internal::AllocationType) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0ab1b147",
+      "symbol": " [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0ac920b2",
+      "symbol": "v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [/lib64/libnode.so.72]"
+    },
+    {
+      "pc": "0x00007f6b0b362c19",
+      "symbol": " [/lib64/libnode.so.72]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2403082240,
+    "totalCommittedMemory": 2370095048,
+    "usedMemory": 2368291568,
+    "availableMemory": 16989560,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 1677864,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      },
+      "old_space": {
+        "memorySize": 2207744,
+        "committedMemory": 1591560,
+        "capacity": 1589288,
+        "used": 1589112,
+        "available": 176
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 177216,
+        "capacity": 160832,
+        "used": 160832,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 250144,
+        "capacity": 249600,
+        "used": 249600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1577828352,
+        "committedMemory": 1577828352,
+        "capacity": 1577769264,
+        "used": 1577769264,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 788488192,
+        "committedMemory": 788488192,
+        "capacity": 788486912,
+        "used": 788486912,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 2.00398,
+    "kernelCpuSeconds": 0.83841,
+    "cpuConsumptionPercent": 94.7465,
+    "maxRss": 2405277696,
+    "pageFaults": {
+      "IORequired": 10,
+      "IONotRequired": 580367
+    },
+    "fsActivity": {
+      "reads": 2624,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 1.60523,
+    "kernelCpuSeconds": 0.837888,
+    "cpuConsumptionPercent": 81.4373,
+    "fsActivity": {
+      "reads": 2624,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "HOME": "/home/sabashavidze",
+    "LANG": "en_US.UTF-8",
+    "LOGNAME": "sabashavidze",
+    "PATH": "/home/sabashavidze/.local/bin:/home/sabashavidze/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin",
+    "SHELL": "/bin/bash",
+    "USER": "sabashavidze",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XDG_DATA_DIRS": "/home/sabashavidze/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "DESKTOP_SESSION": "gnome",
+    "GDMSESSION": "gnome",
+    "GDM_LANG": "en_US.UTF-8",
+    "HISTCONTROL": "ignoredups",
+    "HISTSIZE": "1000",
+    "HOSTNAME": "localhost.localdomain",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "LOADEDMODULES": "",
+    "MAIL": "/var/spool/mail/sabashavidze",
+    "MANPATH": ":",
+    "MODULEPATH": "/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles",
+    "MODULEPATH_modshare": "/usr/share/modulefiles:1:/usr/share/Modules/modulefiles:1:/etc/modulefiles:1",
+    "MODULESHOME": "/usr/share/Modules",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH",
+    "PWD": "/home/sabashavidze",
+    "QT_IM_MODULE": "ibus",
+    "SESSION_MANAGER": "local/unix:@/tmp/.ICE-unix/1747,unix/unix:/tmp/.ICE-unix/1747",
+    "SHLVL": "0",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "USERNAME": "sabashavidze",
+    "XDG_CURRENT_DESKTOP": "GNOME",
+    "XDG_MENU_PREFIX": "gnome-",
+    "XDG_SESSION_CLASS": "user",
+    "XDG_SESSION_DESKTOP": "gnome",
+    "XDG_SESSION_TYPE": "wayland",
+    "XMODIFIERS": "@im=ibus",
+    "MANAGERPID": "1642",
+    "INVOCATION_ID": "69b8b085795f4896948441814c7e1e43",
+    "JOURNAL_STREAM": "9:40494",
+    "DISPLAY": ":0",
+    "XAUTHORITY": "/run/user/1000/.mutter-Xwaylandauth.TUZSF0",
+    "WAYLAND_DISPLAY": "wayland-0",
+    "GJS_DEBUG_OUTPUT": "stderr",
+    "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/usr/share/applications/code.desktop",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "132569",
+    "NO_AT_BRIDGE": "1",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en-us\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_NODE_CACHED_DATA_DIR": "/home/sabashavidze/.config/Code/CachedData/26076a4de974ead31f97692a0d32f90d735645c0",
+    "VSCODE_LOGS": "/home/sabashavidze/.config/Code/logs/20200212T120454",
+    "VSCODE_IPC_HOOK": "/run/user/1000/vscode-d82ac07c-1.41.1-main.sock",
+    "VSCODE_PID": "132569",
+    "BASH_FUNC_module%%": "() {  unset _mlshdbg;\n if [ \"${MODULES_SILENT_SHELL_DEBUG:-0}\" = '1' ]; then\n case \"$-\" in \n *v*x*)\n set +vx;\n _mlshdbg='vx'\n ;;\n *v*)\n set +v;\n _mlshdbg='v'\n ;;\n *x*)\n set +x;\n _mlshdbg='x'\n ;;\n *)\n _mlshdbg=''\n ;;\n esac;\n fi;\n unset _mlre _mlIFS;\n if [ -n \"${IFS+x}\" ]; then\n _mlIFS=$IFS;\n fi;\n IFS=' ';\n for _mlv in ${MODULES_RUN_QUARANTINE:-};\n do\n if [ \"${_mlv}\" = \"${_mlv##*[!A-Za-z0-9_]}\" -a \"${_mlv}\" = \"${_mlv#[0-9]}\" ]; then\n if [ -n \"`eval 'echo ${'$_mlv'+x}'`\" ]; then\n _mlre=\"${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' \";\n fi;\n _mlrv=\"MODULES_RUNENV_${_mlv}\";\n _mlre=\"${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' \";\n fi;\n done;\n if [ -n \"${_mlre:-}\" ]; then\n eval `eval ${_mlre}/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '\"$@\"'`;\n else\n eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash \"$@\"`;\n fi;\n _mlstatus=$?;\n if [ -n \"${_mlIFS+x}\" ]; then\n IFS=$_mlIFS;\n else\n unset IFS;\n fi;\n unset _mlre _mlv _mlrv _mlIFS;\n if [ -n \"${_mlshdbg:-}\" ]; then\n set -$_mlshdbg;\n fi;\n unset _mlshdbg;\n return $_mlstatus\n}",
+    "BASH_FUNC_scl%%": "() {  if [ \"$1\" = \"load\" -o \"$1\" = \"unload\" ]; then\n eval \"module $@\";\n else\n /usr/bin/scl \"$@\";\n fi\n}",
+    "BASH_FUNC_switchml%%": "() {  typeset swfound=1;\n if [ \"${MODULES_USE_COMPAT_VERSION:-0}\" = '1' ]; then\n typeset swname='main';\n if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then\n typeset swfound=0;\n unset MODULES_USE_COMPAT_VERSION;\n fi;\n else\n typeset swname='compatibility';\n if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then\n typeset swfound=0;\n MODULES_USE_COMPAT_VERSION=1;\n export MODULES_USE_COMPAT_VERSION;\n fi;\n fi;\n if [ $swfound -eq 0 ]; then\n echo \"Switching to Modules $swname version\";\n source /usr/share/Modules/init/bash;\n else\n echo \"Cannot switch to Modules $swname version, command not found\";\n return 1;\n fi\n}",
+    "_": "/usr/share/code/code",
+    "AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "PIPE_LOGGING": "true",
+    "VERBOSE_LOGGING": "true",
+    "VSCODE_IPC_HOOK_EXTHOST": "/tmp/vscode-ipc-67c55859-cd91-4b8c-a80f-8303db359812.sock",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_LOG_STACK": "false",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 524288,
+      "hard": 524288
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 63373,
+      "hard": 63373
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib64/libnode.so.72",
+    "/lib64/libstdc++.so.6",
+    "/lib64/libgcc_s.so.1",
+    "/lib64/libpthread.so.0",
+    "/lib64/libc.so.6",
+    "/lib64/libz.so.1",
+    "/lib64/libuv.so.1",
+    "/lib64/libnghttp2.so.14",
+    "/lib64/libcrypto.so.1.1",
+    "/lib64/libssl.so.1.1",
+    "/lib64/libdl.so.2",
+    "/lib64/libm.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib64/librt.so.1"
+  ]
+}
