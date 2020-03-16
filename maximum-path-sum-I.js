@@ -6,16 +6,14 @@ function maximumPathSumI(triangle) {
         if (sig > N - 1) return cur;
         if (index >= N || index < 0) return cur;
         cur += T[sig][index];
-        let a, b, c;
-        a = 0, b = 0, c = 0;
-        if (index - 1 >= 0) {
-            a = solve(T, index - 1, sig + 1, cur, N);
-        }
+        let lGo, rGo;
+        lGo = 0, rGo = 0;
+
         if (index + 1 <= N - 1) {
-            b = solve(T, index + 1, sig + 1, cur, N);
+            rGo = solve(T, index + 1, sig + 1, cur, N);
         }
-        c = solve(T, index, sig + 1, cur, N);
-        return Math.max(a, b, c);
+        lGo = solve(T, index, sig + 1, cur, N);
+        return Math.max(rGo, lGo);
     }
     return solve(triangle, 0, 0, 0, triangle.length);
 
